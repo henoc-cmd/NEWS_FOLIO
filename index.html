@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henoc Yobo - Portfolio</title>
+    <!-- Polices Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Écran de chargement initial -->
+    <div class="page-loader" id="page-loader" role="status" aria-live="polite" aria-label="Chargement du portfolio">
+        <div class="loader-content">
+            <div class="loader-brand"><span class="loader-mark">HY</span><span>Henoc Yobo</span></div>
+            <span class="loader-caption">DATA ANALYST · CRÉATEUR DE CONTENU</span>
+            <div class="loader-line"><span class="loader-progress"></span></div>
+            <span class="loader-percent">5%</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-mark">HY</span>
+                <span>Henoc Yobo</span>
+            </a>
+            <nav class="nav">
+                <a href="#bio" class="nav-link">Biographie</a>
+                <a href="#realisations" class="nav-link">Réalisations</a>
+                <a href="#expertise" class="nav-link">Expertise</a>
+                <a href="https://rkiuicwt.mychariow.shop" class="nav-link">Formations</a>
+                <a href="#Neri-Data" class="nav-link">Neri-Data</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="site-tools">
+                <button class="language-switch" type="button" aria-label="Changer de langue" data-language-switch>
+                    <span class="language-option is-active" data-language="fr">fr</span>
+                    <span class="language-option" data-language="en">en</span>
+                </button>
+            </div>
+            <a href="#contact" class="btn btn-primary btn-header">DÉMARRER UN PROJET</a>
+        </div>
+        <div class="status">
+            <span class="status-dot"></span>
+            <span>DISPONIBLE : DATA SCIENTIST</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+<section class="hero">
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <h1 class="hero-title">
+                je transforme les données en analyses,les analyses en décisions
+                <span class="accent-green">et l’IA en  solutions concrètes</span>.
+            </h1>
+
+            <p class="hero-subtitle" data-admin-field="heroSubtitle">
+                Data Analyst, Risk Analyst et créateur de contenu, je conçois des architectures 
+                d’analyse robustes ainsi que des applications web avec Shiny et 
+                Streamlit, optimisées pour booster votre structure, convertir vos 
+                utilisateurs, maximiser vos performances et accompagner votre croissance.
+            </p>
+
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">
+                    DÉMARRER UN PROJET
+                </a>
+
+                <a href="#realisations" class="btn btn-secondary">
+                    CONSULTER MES RÉALISATIONS
+                </a>
+
+                <a href="assets/CV_Henoc_Yobo.pdf" target="_blank" rel="noopener" class="btn btn-secondary">
+                    <i class="fas fa-file-pdf"></i> MON CV
+                </a>
+            </div>
+
+            <div class="hero-metrics">
+                <div class="metric">
+                    <span class="metric-label">MAÎTRISE STATISTIQUE & IA</span>
+                    <span class="metric-value">90% <small>(LLM)</small></span>
+                </div>
+
+                <div class="metric">
+                    <span class="metric-label">SCORE DE PERFORMANCE</span>
+                    <span class="metric-value">85/100 <small>(moyenne)</small></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+            <img 
+                src="henoc.jpeg" 
+                alt="Henoc Yobo" 
+                class="profile-image"
+            >
+
+            <div class="image-tags">
+                <span class="tag">DATA ANALYST</span>
+                <span class="tag">CRÉATEUR DE CONTENU</span>
+                <span class="tag">IA & DATA</span>
+                <span class="tag">DEVELOPPEUR DATA</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Présentation & Philosophie -->
+    <section id="bio" class="section presentation">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">PRÉSENTATION & PHILOSOPHIE</span>
+            </div>
+            <div class="presentation-grid">
+                <div class="presentation-content">
+                    <div class="section-subheader">
+                        <span class="subheader-label">LE CHEMINEMENT</span>
+                    </div>
+                    <h2 class="section-title">
+                        À l'intersection de <span class="accent-green">l'analyse rigoureuse</span> et de <span class="accent-green">la stratégie d'impact</span>.
+                    </h2>
+                    <p class="presentation-text">
+                        Mon rôle dépasse la simple analyse de données. Au-delà de collaborer directement avec les décideurs pour modéliser des solutions data-driven durables, je conçois des solutions qui combinent data, IA & technologie pour répondre à des problématiques concrètes. Je m'assure que chaque décision et chaque modèle apportent une valeur mesurable à votre entreprise.
+                    </p>
+                </div>
+                <div class="ecosystem">
+                    <div class="section-subheader">
+                        <span class="subheader-label">ÉCOSYSTÈME DE TRAVAIL</span>
+                    </div>
+                    <h3 class="ecosystem-title">Technologies clés</h3>
+                    <p class="ecosystem-subtitle">
+                        Sélection de frameworks et langages maîtrisés au quotidien pour garantir vélocité et scalabilité.
+                    </p>
+                    <div class="tech-icons">
+                        <div class="tech-icon"><i class="fab fa-python"></i><span>Python</span></div>
+                        <div class="tech-icon"><i class="fab fa-r-project"></i><span>R</span></div>
+                        <div class="tech-icon"><i class="fas fa-chart-line"></i><span>TensorFlow</span></div>
+                        <div class="tech-icon"><i class="fas fa-brain"></i><span>Scikit-learn</span></div>
+                        <div class="tech-icon"><i class="fas fa-database"></i><span>SQL</span></div>
+                        <div class="tech-icon"><i class="fas fa-table"></i><span>Pandas</span></div>
+                        <div class="tech-icon"><i class="fas fa-chart-bar"></i><span>Power BI</span></div>
+                        <div class="tech-icon"><i class="fas fa-code"></i><span>Git</span></div>
+                    </div>
+                    <div class="tech-tags">
+                        <span>STATISTIQUE</span>
+                        <span>MACHINE LEARNING</span>
+                        <span>VISUALISATION</span>
+                        <span>ANALYSE DE DONNÉES</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section class="section skills">
+        <div class="container">
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-bolt"></i></div>
+                    <h3 class="skill-title">Performance et optimisation</h3>
+                    <p class="skill-description">
+                        Chaque modèle et solution optimisés se traduisent par une fiabilité, une efficacité ainsi qu'une amélioration des prédictions et des décisions. L'optimisation technique est au cœur de ma démarche et chaque outil apporte une expérience fluide et une réelle valeur métier.
+                    </p>
+                    <span class="skill-tag">Performance & efficacité</span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                    <h3 class="skill-title">solution orientées métier</h3>
+                    <p class="skill-description">
+                        La technologie doit répondre à un besoin concret. Je pars du problème pour concevoir des solutions simples, intuitives et adaptées au métier.
+                    </p>
+                    <span class="skill-tag">Data System & logique </span>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-handshake"></i></div>
+                    <h3 class="skill-title">Autonomie & Clarté</h3>
+                    <p class="skill-description">
+                        Rapports réguliers, intégration continue, code auto-documenté et tests automatisés : une approche structurée et transparente de la conception à la livraison. Un processus fluide du premier contact jusqu'à la mise en production.
+                    </p>
+                    <span class="skill-tag">Rigueur & Transparence</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mentorat -->
+    <section class="section mentorship">
+        <div class="container">
+            <div class="mentorship-content">
+                <div class="section-subheader">
+                    <span class="subheader-label">MENTORAT & TRANSMISSION</span>
+                </div>
+                <h2 class="section-title">
+                    Apprendre <span class="accent-green">Appliquer</span> Construire .
+                </h2>
+                <p class="mentorship-text">
+                    Je partage mes connaissances et mon expérience en data, intelligence artificielle et technologie digitale à travers des contenus, formations, projets pratiques et du mentorat, aidant les professionnels et les étudiants à maîtriser les concepts avancés de la data science et de l'IA, tout en les guidant dans l'application pratique pour résoudre des problèmes réels.
+                </p>
+                <a href="https://rkiuicwt.mychariow.shop" class="btn btn-yellow">DÉCOUVRIR MES FORMATIONS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="realisations" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">PROJETS SÉLECTIONNÉS & RÉSULTATS</span>
+            </div>
+            <h2 class="section-title">
+                Des solutions concrètes conçues pour <span class="accent-green">convertir</span>.
+            </h2>
+            <p class="section-subtitle">
+                Découvrez comment j'aide mes clients à transformer des défis techniques en performances commerciales mesurables.
+            </p>
+            <div class="projects-grid">
+
+                <!-- Projet 1 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="https://henocyobo.shinyapps.io/StatIA/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l'application StatIA Analytics"><img src="assets/Applications/Shiny1.PNG" alt="StatIA Analytics" class="project-image"></a>
+                        <div class="project-tags">
+                            <span>SAAS DATA</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"><a href="https://henocyobo.shinyapps.io/StatIA/" target="_blank" rel="noopener noreferrer">StatIA Analytics<i class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="project-description">
+                            Cette application web d'analyse statistique permet aux utilisateurs d'explorer et de nettoyer leurs données de manière interactive. 
+                            Elle facilite la détection et le traitement des valeurs manquantes et aberrantes, la création de nouvelles variables, ainsi que des analyses univariées et bivariées (statistiques descriptives, visualisations, matrice de corrélation) pour une compréhension approfondie des données.
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+85%</span>
+                            <span class="metric-label">IMPACT SOCIAL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="https://henocyobo.shinyapps.io/Reg_SMA/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l'application EcoStat"><img src="assets/Applications/EcoStat.png" alt="EcoStat" class="project-image"></a>
+                        <div class="project-tags">
+                            <span>stat Econometriques</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"><a href="https://henocyobo.shinyapps.io/Reg_SMA/" target="_blank" rel="noopener noreferrer">EcoStat <i class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="project-description">
+                            Cette application web d'économétrie permet aux utilisateurs d'analyser des données statistiques de manière interactive.
+                            Elle facilite les régressions (simples et multiples), les tests de validité, les prédictions et les analyses ANOVA/ANCOVA pour valider des hypothèses et interpréter des résultats économétriques.
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+89%</span>
+                            <span class="metric-label">IMPACT utilitaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 3 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="https://henocyobo.shinyapps.io/SQL_STUDIO_PRO/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l'application Sql_chat"><img src="assets/Applications/Sql_chat.png" alt="Sql_chat" class="project-image"></a>
+                        <div class="project-tags">
+                            <span>SQL_TECH</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"><a href="https://henocyobo.shinyapps.io/SQL_STUDIO_PRO/" target="_blank" rel="noopener noreferrer"> SQL Studio Pro <i class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="project-description">
+                            Application web R/Shiny qui réunit SQL + IA + Data Viz dans une interface sombre premium.
+                            Un "couteau suisse" pour data analysts : connexion à n'importe quelle base, exploration 
+                            du schéma, génération de SQL en langage naturel via IA (HENOC), visualisations interactives 
+                            et rapports exportables — le tout dans une seule app.
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+85%</span>
+                            <span class="metric-label">IMPACT NumL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 4 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="https://creditrisk-lhczap8g.manus.space/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l'application RK"><img src="assets/Applications/RK.png" alt="Neri Bot" class="project-image"></a>
+                        <div class="project-tags">
+                            <span>DASHTECH</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"><a href="https://creditrisk-lhczap8g.manus.space/" target="_blank" rel="noopener noreferrer">Dashboard de gestion des risques financiers <i class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="project-description">
+                            Ce projet consiste en la conception d’un tableau de bord interactif dédié à la 
+                             gestion et au suivi des risques financiers. Il permet de visualiser en temps réel
+                             les indicateurs clés de performance du portefeuille, notamment l’exposition totale,
+                             les pertes attendues, le taux de défaut et le ratio CET1. L’interface offre une vue
+                             d’ensemble claire et intuitive grâce à des graphiques dynamiques, des analyses
+                             sectorielles et des outils de simulation de décisions. Son design moderne et épuré 
+                             facilite le suivi des données, l’analyse des risques et la prise de décision stratégique.
+                            Technologies et compétences mises en valeur : UI/UX Design, Dashboard Design, Data 
+                            Visualization, analyse financière et conception d’interfaces interactives.
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+75%</span>
+                            <span class="metric-label">IMPACT financiers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 5 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="assets/Dashboards/MentalHealth Dashboard.pbix" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir MentalHealth Dashboard"><img src="assets/Dashboards/MentalHealth Dashboard.jpg" alt="MentalHealth Dashboard" class="project-image"></a>
+                        <div class="project-tags">
+                            <span>Outils_Medical</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"><a href="assets/Dashboards/MentalHealth Dashboard.pbix" target="_blank" rel="noopener noreferrer">MentalHealth Dashboard <i class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="project-description">
+                            Ce tableau de bord interactif permet d'analyser les facteurs liés à la dépression chez les étudiants. 
+                            Il centralise des indicateurs clés comme le taux de dépression, le stress financier, les habitudes de sommeil, 
+                            et l'impact des antécédents familiaux, afin d'identifier les tendances et les groupes à risque.
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+95%</span>
+                            <span class="metric-label">IMPACT SOCIAL_medical</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 6 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="assets/Dashboards/Performance Commerciale.xlsx" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir Performance Commerciale"><img src="assets/Dashboards/Performance Commerciale.png" alt="Performance Commerciale" class="project-image"></a>
+                        <div class="project-tags">
+                            <span>dashboards</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"><a href="assets/Dashboards/Performance Commerciale.xlsx" target="_blank" rel="noopener noreferrer">Performance Commerciale<i class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="project-description">
+                          Ce tableau de bord de suivi des ventes permet d'analyser les performances commerciales par région, pays, et période.
+                          Il centralise les indicateurs clés comme les ventes, les profits, les taux de réalisation des objectifs, et la satisfaction client pour optimiser les stratégies commerciales
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+65%</span>
+                            <span class="metric-label">IMPACT Commerciale</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 7 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="https://henocyobo.shinyapps.io/6_Conseils_BRVM/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir Gestion des actif"><img src="assets/Applications/gp.png" alt="gp" class="project-image"></a>
+                        <div class="project-tags">
+                            <span> </span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"><a href="https://henocyobo.shinyapps.io/6_Conseils_BRVM/" target="_blank" rel="noopener noreferrer">Gestion des actifs<i class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="project-description">
+                            BRVM Passif – Simulateur d’investissement pédagogique
+                            Application web développée avec R Shiny et bs4Dash pour démocratiser l’investissement à la BRVM, même avec un budget de 10 000 FCFA par mois.
+                             Elle permet de simuler ses investissements, suivre l’évolution du capital et des dividendes, découvrir les actions cotées et apprendre les bases 
+                             de la Bourse grâce à des tableaux de bord interactifs.Technologies : R, Shiny, bs4Dash, Plotly, DT, dplyr.
+                              Application à vocation exclusivement pédagogique.
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+65%</span>
+                            <span class="metric-label">IMPACT investissements</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 8 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="assets/Rapports/pdfs/Stat_inf_rap.pdf" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir le rapport dépression"><img src="assets/Applications/projet2.png" alt="Neri Bot" class="project-image"></a>
+                        <div class="project-tags">
+                            <span>Rapport</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"><a href="assets/Rapports/pdfs/Stat_inf_rap.pdf" target="_blank" rel="noopener noreferrer"> Analyse des facteurs influençant la dépression des étudiants <i class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="project-description">
+                            Solution digitale de prévention du suicide en Afrique francophone, utilisant l'IA pour offrir un soutien psychologique accessible et anonyme.
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+65%</span>
+                            <span class="metric-label">IMPACT Santé</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 9 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="assets/Rapports/pdfs/stat_des_rap.pdf" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir le rapport  HELP"><img src="assets/Applications/projet1.png" alt="Neri Bot" class="project-image"></a>
+                        <div class="project-tags">
+                            <span>Rapport</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"><a href="assets/Rapports/pdfs/stat_des_rap.pdf" target="_blank" rel="noopener noreferrer">Analyse des priorités d'aide humanitaire » (HELP International) <i class="fas fa-external-link-alt"></i></a></h3>
+                        <p class="project-description">
+                            Analyse uni- et bivariée (R) d'une base de 167 pays et 10 indicateurs socio-économiques afin de cibler les pays prioritaires pour 10 M$ d'aide humanitaire. 
+                            Après nettoyage des données (valeurs manquantes, winsorisation), l'étude identifie les corrélations clés (PIB/hab ↔ mortalité infantile : -0,88) et classe
+                            les pays les plus vulnérables — majoritairement africains (Burundi, Tchad, Centrafrique, Niger…) — avec une proposition de répartition des fonds par type de besoin.
+                            Outils : R (ggplot2, corrplot, DataExplorer) · Techniques : analyse univariée/bivariée, corrélation, winsorisation.
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+95%</span>
+                            <span class="metric-label">IMPACT financiers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 10 -->
+                <div class="project-card">
+                    <div class="project-image-container">
+                        <a href="https://henoc-portfolio.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l'application Data Analysis"><img src="assets/Applications/folio.PNG" alt="Data Analysis" class="project-image"></a>
+                        <div class="project-tags">
+                            <span>ANALYSE DE DONNÉES</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title"> Portfolio complémentaire <i class="fas fa-external-link-alt"></i></h3>
+                        <p class="project-description">
+                            Ce portfolio présente l’essentiel de mes rapports et réalisations.
+                            Un second portfolio est également disponible pour découvrir des travaux complémentaires.
+                        </p>
+                        <div class="project-metric">
+                            <span class="metric-value">+22.6%</span>
+                            <span class="metric-label">PRÉCISION</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#testimonials" class="scroll-link">
+                    <i class="fas fa-arrow-down"></i> DÉFILEZ VERS LE BAS POUR EXPLORER
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Témoignage 1 -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-quote">
+                        <span class="quote-mark">“</span>
+                        <p class="quote-text">
+                            Henoc est une personne travailleuse, rigoureuse et intelligente. Malgré son caractère parfois affirmé et taquin, il maîtrise parfaitement son travail et fait preuve d’un grand professionnalisme.
+                        </p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/Images/cassandras.jpeg" alt="Cassandra Kouame" class="author-image">
+                        <div class="author-info">
+                            <span class="author-name">Cassandra Kouame</span>
+                            <span class="author-title">Micro Biologist</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Témoignage 2 -->
+            <div class="testimonial">
+                <div class="testimonial-quote">
+                    <span class="quote-mark">“</span>
+                    <p class="quote-text">
+                        J’ai particulièrement apprécié son professionnalisme et sa détermination.
+                        Henoc apporte toujours une énergie positive dans les projets auxquels il participe.
+                    </p>
+                </div>
+
+                <div class="testimonial-author">
+                    <img src="assets/Images/Ohouo-grace.jpeg" 
+                         alt="Ohouo Grâce" 
+                         class="author-image">
+
+                    <div class="author-info">
+                        <span class="author-name">Ohouo Grâce</span>
+                        <span class="author-title">Entrepreneure</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Témoignage 3 -->
+            <div class="testimonial">
+                <div class="testimonial-quote">
+                    <span class="quote-mark">“</span>
+                    <p class="quote-text">
+                        Ce que j’apprécie le plus chez Henoc, c’est son implication et sa détermination. 
+                        Il n’hésite pas à nous pousser à donner le meilleur de nous-mêmes et s’investit pleinement pour mener les projets à bien.
+                         Travailler avec lui a été une expérience très enrichissante pour moi.
+                    </p>
+                </div>
+
+                <div class="testimonial-author">
+                    <img src="assets/Images/Marie-Hesther.jpeg" 
+                         alt="Wanga Marie Hesther" 
+                         class="author-image">
+
+                    <div class="author-info">
+                        <span class="author-name">Wanga Marie Hesther</span>
+                        <span class="author-title">Etudiante</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Témoignage 4 -->
+            <div class="testimonial">
+                <div class="testimonial-quote">
+                    <span class="quote-mark">“</span>
+                    <p class="quote-text">
+                        Ce que j’apprécie le plus chez Henoc, c’est sa capacité à motiver et à redonner le moral, même dans les moments difficiles.
+                        Au fil du projet, j’ai surtout remarqué son implication, sa motivation et l’attention qu’il porte à ceux qu’il accompagne.
+                         C’est vraiment un bon professeur. ☺️
+                    </p>
+                </div>
+
+                <div class="testimonial-author">
+                    <img src="assets/Images/myriam.jpeg" 
+                         alt="Koné Myriam" 
+                         class="author-image">
+
+                    <div class="author-info">
+                        <span class="author-name">Koné Myriam</span>
+                        <span class="author-title">Etudiante</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Témoignage 5 -->
+            <div class="testimonial">
+                <div class="testimonial-quote">
+                    <span class="quote-mark">“</span>
+                    <p class="quote-text">
+                        Ce que j’apprécie le plus chez Henoc, c’est son implication et sa disponibilité.
+                         Il nous a beaucoup accompagnés, conseillés et motivés tout au long du projet. 
+                         Malgré son côté parfois franc et exigeant, il a toujours su nous pousser à donner le meilleur de nous-mêmes et à avoir davantage confiance en notre travail. 
+                         Son accompagnement nous a vraiment permis de progresser.
+                    </p>
+                </div>
+
+                <div class="testimonial-author">
+                    <img src="assets/Images/Biowel.png" 
+                         alt="BIOWEL" 
+                         class="author-image">
+
+                    <div class="author-info">
+                        <span class="author-name">BIOWEL</span>
+                        <span class="author-title">Entreprise Biotique</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Témoignage 6 -->
+            <div class="testimonial">
+                <div class="testimonial-quote">
+                    <span class="quote-mark">“</span>
+                    <p class="quote-text">
+                        J’ai particulièrement apprécié son professionnalisme et sa détermination.
+                        Henoc apporte toujours une énergie positive dans les projets auxquels il participe.
+                    </p>
+                </div>
+
+                <div class="testimonial-author">
+                    <img src="assets/Images/NERI.jpeg" 
+                         alt="CM NERI CHATBOT" 
+                         class="author-image">
+
+                    <div class="author-info">
+                        <span class="author-name">CM NERI CHATBOT</span>
+                        <span class="author-title">Application de Chatbot</span>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Contrôles -->
+                <div class="slider-controls">
+                    <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise -->
+    <section id="expertise" class="section expertise">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">MON EXPERTISE</span>
+            </div>
+            <div class="expertise-intro">
+                <div>
+                    <h2 class="section-title">Des données brutes à des <span class="accent-green">décisions éclairées</span>.</h2>
+                    <p class="section-subtitle">J'accompagne chaque étape de votre parcours data, de la collecte à la mise en place de solutions concrètes pour votre activité.</p>
+                </div>
+                <span class="expertise-index">04</span>
+            </div>
+            <div class="expertise-grid">
+                <article class="expertise-card"><span class="expertise-number">01</span><i class="fas fa-chart-line expertise-icon"></i><h3>Data Analytics</h3><p>Transformer vos données en indicateurs lisibles pour comprendre vos performances et agir au bon moment.</p></article>
+                <article class="expertise-card"><span class="expertise-number">02</span><i class="fas fa-flask expertise-icon"></i><h3>Statistique &amp; Data Science</h3><p>Explorer, modéliser et prédire grâce à des méthodes statistiques et des modèles adaptés à vos enjeux.</p></article>
+                <article class="expertise-card"><span class="expertise-number">03</span><i class="fas fa-database expertise-icon"></i><h3>Data Engineering</h3><p>Structurer des flux et des bases fiables pour rendre l'information disponible, propre et exploitable.</p></article>
+                <article class="expertise-card"><span class="expertise-number">04</span><i class="fas fa-bullseye expertise-icon"></i><h3>Application data</h3><p>Concevoir des applications avec Shiny et Streamlit pour mettre vos analyses entre les mains des équipes.</p></article>
+            </div>
+            <div class="expertise-visualisation">
+                <div><span class="section-label">05 / RESTITUER L'ESSENTIEL</span><h3>Visualisation &amp; aide à la décision</h3><p>Des tableaux de bord clairs, interactifs et pensés pour répondre aux questions qui comptent.</p></div>
+                <div class="visualisation-bars" aria-hidden="true"><span style="height: 42%"></span><span style="height: 68%"></span><span style="height: 54%"></span><span style="height: 86%"></span><span style="height: 74%"></span></div>
+            </div>
+            <div class="expertise-sectors">
+                <p class="expertise-sectors-intro">Quand la data rencontre les métiers, l'union devient exploitable.</p>
+                <span class="section-label">SECTEURS D'INTERVENTION</span>
+                <div class="sector-list">
+                    <article class="sector-card"><h3>Finance</h3><p>Analyser les indicateurs financiers pour mieux piloter les performances et anticiper les évolutions.</p></article>
+                    <article class="sector-card"><h3>Assurance</h3><p>Exploiter les données pour évaluer les risques et améliorer la qualité des décisions.</p></article>
+                    <article class="sector-card"><h3>Ressources humaines</h3><p>Mettre les données au service du recrutement, du suivi des équipes et de la fidélisation.</p></article>
+                    <article class="sector-card"><h3>Comptabilité</h3><p>Automatiser et fiabiliser le suivi des chiffres pour gagner en clarté et en efficacité.</p></article>
+                    <article class="sector-card"><h3>Éducation</h3><p>Transformer les données pédagogiques en leviers de progression pour les apprenants.</p></article>
+                    <article class="sector-card"><h3>Santé</h3><p>Structurer et visualiser l'information pour soutenir des décisions plus rapides et pertinentes.</p></article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Neri Data -->
+    <section id="Neri-Data" class="section neri-data">
+        <div class="container">
+            <div class="neri-data-header">
+                <span class="section-label">UNE EXPERTISE DEVENUE INNOVATION</span>
+                <h2 class="neri-data-title">NERI <span>DATA</span></h2>
+                <p class="neri-data-subtitle">Une plateforme pensée pour transformer la data en opportunités concrètes.</p>
+            </div>
+            <div class="neri-data-audiences">
+                <article class="neri-audience-card">
+                    <span class="neri-audience-number">01</span>
+                    <i class="fas fa-user-graduate neri-audience-icon"></i>
+                    <h3>Étudiants</h3>
+                    <p>Formations, ateliers et accompagnement pour apprendre la data, construire son portfolio et développer des compétences utiles.</p>
+                </article>
+                <article class="neri-audience-card">
+                    <span class="neri-audience-number">02</span>
+                    <i class="fas fa-school neri-audience-icon"></i>
+                    <h3>Établissements</h3>
+                    <p>Conférences, workshops et accompagnements pédagogiques pour intégrer la data et l'IA dans les parcours de formation.</p>
+                </article>
+                <article class="neri-audience-card">
+                    <span class="neri-audience-number">03</span>
+                    <i class="fas fa-building neri-audience-icon"></i>
+                    <h3>Entreprises</h3>
+                    <p>Formations IA, conseils, dashboards et solutions data pour mieux comprendre les données et accélérer les décisions.</p>
+                </article>
+            </div>
+            <div class="neri-data-cta">
+                <span class="neri-data-arrow">Découvrez la plateforme</span>
+                <a href="https://neridata.com" class="btn btn-yellow" target="_blank" rel="noopener noreferrer">DÉCOUVRIR NERI DATA <i class="fas fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transmission technique -->
+    <section class="section transmission">
+        <div class="container">
+            <div class="transmission-header">
+                <div class="section-subheader">
+                    <span class="subheader-label">TRANSMISSION TECHNIQUE</span>
+                </div>
+                <h2 class="section-title">
+                    Vulgariser et rendre  le complexe simple, <span class="accent-green">partager pour faire progresser</span>.
+                </h2>
+                <p class="transmission-text">
+                    Au-delà de l'analyse de données, je m'engage à partager mes retours d'expérience et analyses techniques avec la communauté. Suivi par plus de 50 000 étudiants sur les réseaux, je vulgarise les concepts avancés et encourage les bonnes pratiques en data science.
+                </p>
+            </div>
+            <div class="transmission-stats">
+                <div class="stat">
+                    <span class="stat-value">**** +</span>
+                    <span class="stat-label">ABONNÉS CUMULÉS</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value"> *** M +</span>
+                    <span class="stat-label">VUES TOTALES DE CONTENUS</span>
+                </div>
+            </div>
+            <div class="transmission-gallery">
+                <div class="gallery-item">
+                    <img src="assets/Images/formation1.jpeg" alt="Formation 1">
+                    <div class="gallery-caption">
+                        <span class="caption-number">01</span>
+                        <span class="caption-title">Les femmes et la tech</span>
+                        <p>Les femmes jouent un rôle crucial pour l’évolution technologique.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/Images/formation2.jpeg" alt="Formation 2">
+                    <div class="gallery-caption">
+                        <span class="caption-number">02</span>
+                        <span class="caption-title">L’intelligence artificielle</span>
+                        <p>Optimisation et automatisation des tâches avec l'IA.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/Images/formation3.jpeg" alt="Formation 3">
+                    <div class="gallery-caption">
+                        <span class="caption-number">03</span>
+                        <span class="caption-title">Astuces Data pour développeurs</span>
+                        <p>La data science appliquée aux développeurs.</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/Images/formation4.jpeg" alt="Formation 4">
+                    <div class="gallery-caption">
+                        <span class="caption-number">04</span>
+                        <span class="caption-title">L’importance d’une communauté</span>
+                        <p>Le data scientist talentueux a besoin d’un réseau.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="transmission-cta">
+                <a href="#creator-pricing" class="btn btn-blue" data-pricing-open>VOIR MES TARIFS CRÉATEUR</a>
+                <a href="https://rkiuicwt.mychariow.shop" class="btn btn-yellow">DÉCOUVRIR MES FORMATIONS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tarifs création de contenu -->
+    <div class="pricing-modal" id="creator-pricing" aria-hidden="true">
+        <div class="pricing-modal-backdrop" data-pricing-close></div>
+        <section class="pricing-dialog" role="dialog" aria-modal="true" aria-labelledby="pricing-title">
+            <button class="pricing-close" type="button" aria-label="Fermer les tarifs" data-pricing-close><i class="fas fa-xmark"></i></button>
+            <div class="pricing-header">
+                <span class="section-label">INVESTISSEZ DANS UNE VISIBILITÉ QUI CONVERTIT.</span>
+                <h2 id="pricing-title">Tarifs Création de Contenu</h2>
+                <p>Chaque collaboration est pensée pour maximiser l'impact de votre marque auprès d'une communauté de développeurs qualifiés.</p>
+            </div>
+            <div class="pricing-grid">
+                <article class="pricing-card">
+                    <span class="pricing-type">PONCTUEL</span>
+                    <strong class="pricing-price">75 000 <small>FCFA</small></strong>
+                    <span class="pricing-frequency">/ vidéo</span>
+                    <p>Une collaboration unique, idéale pour tester l'impact de votre message.</p>
+                    <ul><li>1 vidéo dédiée</li><li>Script co-créé</li><li>Publication TikTok + réseaux</li><li>Statistiques de performance</li></ul>
+                </article>
+                <article class="pricing-card pricing-card-featured">
+                    <span class="pricing-badge"><i class="fas fa-star"></i> POPULAIRE</span>
+                    <span class="pricing-type">MENSUEL</span>
+                    <strong class="pricing-price">200 000 <small>FCFA</small></strong>
+                    <span class="pricing-frequency">/ mois</span>
+                    <p>Une présence régulière avec trois vidéos mensuelles et un suivi stratégique.</p>
+                    <ul><li>3 vidéos / mois</li><li>Planification éditoriale</li><li>Mention en story &amp; post</li><li>Rapport d'engagement mensuel</li><li>Priorité de planning</li></ul>
+                </article>
+                <article class="pricing-card">
+                    <span class="pricing-type">PARTENARIAT LONG TERME</span>
+                    <strong class="pricing-price">300 000 <small>FCFA</small></strong>
+                    <span class="pricing-frequency">/ mois</span>
+                    <p>Un partenariat premium pour installer votre marque dans la durée.</p>
+                    <ul><li>4 vidéos / mois</li><li>Stratégie de contenu dédiée</li><li>Intégration dans mes formations</li><li>Accès à ma communauté privée</li><li>Lien permanent en bio</li><li>Appel stratégique mensuel</li></ul>
+                </article>
+            </div>
+            <div class="pricing-footer">
+                <a href="#contact" class="btn btn-blue" data-pricing-close><i class="far fa-comment-alt"></i> DISCUTONS DE VOTRE PROJET</a>
+                <p>Chaque jour sans visibilité tech, c'est une opportunité manquée.</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Réseaux sociaux -->
+    <section class="section social">
+        <div class="container">
+            <div class="section-subheader">
+                <span class="subheader-label">RÉSEAUX SOCIAUX & COMMUNAUTÉ</span>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.tiktok.com/@henoc__data_analyst" class="social-icon"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.linkedin.com/in/henocyobo/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.youtube.com/@henocyobo1430" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.instagram.com/henoc_risk_analyst?stkn=MTFqNjlrNHV0eGVtaw==" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/19W9AGX7bA/" class="social-icon"><i class="fab fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-subheader">
+                        <span class="subheader-label">COLLABORONS ENSEMBLE</span>
+                    </div>
+                    <h2 class="section-title">
+                        Transformons vos <span class="accent-blue">idées en  solution concrète </span>.
+                    </h2>
+                    <p class="contact-text" data-admin-field="contactText">
+                        Vous avez un projet, une idée  ou une analyse à developper ? Afin de garantir un niveau d'engagement maximal, je n'accompagne que 2 nouveaux projets par trimestre. Discutons de votre feuille de route stratégique.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>EMAIL PROFESSIONNEL</span>
+                            <a href="mailto:yobohenoc7@email.com">yobohenoc7@email.com</a>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WHATSAPP PRIORITAIRE</span>
+                            <a href="https://wa.me/2250769930299" target="_blank" rel="noopener">+225 07 69 93 02 99</a>
+                        </div>
+
+                        <a href="assets/CV_Henoc_Yobo.pdf" target="_blank" rel="noopener" class="btn btn-secondary"><i class="fas fa-file-pdf"></i> TÉLÉCHARGER MON CV</a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" action="https://formspree.io/f/mwplnllr" method="POST">
+                        <div class="form-group">
+                            <label for="name">VOTRE NOM OU ENTREPRISE</label>
+                            <input type="text" id="name" name="name" placeholder="Ex: SpaceX" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">EMAIL DE CONTACT</label>
+                            <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">NUMÉRO DE TÉLÉPHONE</label>
+                            <div class="phone-input">
+                                <select id="country-code" name="country_code">
+                                    <option value="+225">🇨🇮 +225 Côte d'Ivoire</option>
+                                    <option value="+93">🇦🇫 +93 Afghanistan</option>
+                                    <option value="+27">🇿🇦 +27 Afrique du Sud</option>
+                                    <option value="+355">🇦🇱 +355 Albanie</option>
+                                    <option value="+213">🇩🇿 +213 Algérie</option>
+                                    <option value="+49">🇩🇪 +49 Allemagne</option>
+                                    <option value="+376">🇦🇩 +376 Andorre</option>
+                                    <option value="+244">🇦🇴 +244 Angola</option>
+                                    <option value="+1264">🇦🇮 +1264 Anguilla</option>
+                                    <option value="+1268">🇦🇬 +1268 Antigua-et-Barbuda</option>
+                                    <option value="+966">🇸🇦 +966 Arabie saoudite</option>
+                                    <option value="+54">🇦🇷 +54 Argentine</option>
+                                    <option value="+374">🇦🇲 +374 Arménie</option>
+                                    <option value="+297">🇦🇼 +297 Aruba</option>
+                                    <option value="+61">🇦🇺 +61 Australie</option>
+                                    <option value="+43">🇦🇹 +43 Autriche</option>
+                                    <option value="+994">🇦🇿 +994 Azerbaïdjan</option>
+                                    <option value="+1242">🇧🇸 +1242 Bahamas</option>
+                                    <option value="+973">🇧🇭 +973 Bahreïn</option>
+                                    <option value="+880">🇧🇩 +880 Bangladesh</option>
+                                    <option value="+1246">🇧🇧 +1246 Barbade</option>
+                                    <option value="+32">🇧🇪 +32 Belgique</option>
+                                    <option value="+501">🇧🇿 +501 Belize</option>
+                                    <option value="+229">🇧🇯 +229 Bénin</option>
+                                    <option value="+1441">🇧🇲 +1441 Bermudes</option>
+                                    <option value="+975">🇧🇹 +975 Bhoutan</option>
+                                    <option value="+375">🇧🇾 +375 Biélorussie</option>
+                                    <option value="+591">🇧🇴 +591 Bolivie</option>
+                                    <option value="+387">🇧🇦 +387 Bosnie-Herzégovine</option>
+                                    <option value="+267">🇧🇼 +267 Botswana</option>
+                                    <option value="+55">🇧🇷 +55 Brésil</option>
+                                    <option value="+673">🇧🇳 +673 Brunei</option>
+                                    <option value="+359">🇧🇬 +359 Bulgarie</option>
+                                    <option value="+226">🇧🇫 +226 Burkina Faso</option>
+                                    <option value="+257">🇧🇮 +257 Burundi</option>
+                                    <option value="+855">🇰🇭 +855 Cambodge</option>
+                                    <option value="+237">🇨🇲 +237 Cameroun</option>
+                                    <option value="+1">🇨🇦 +1 Canada</option>
+                                    <option value="+238">🇨🇻 +238 Cap-Vert</option>
+                                    <option value="+56">🇨🇱 +56 Chili</option>
+                                    <option value="+357">🇨🇾 +357 Chypre</option>
+                                    <option value="+57">🇨🇴 +57 Colombie</option>
+                                    <option value="+269">🇰🇲 +269 Comores</option>
+                                    <option value="+242">🇨🇬 +242 Congo</option>
+                                    <option value="+243">🇨🇩 +243 Congo RDC</option>
+                                    <option value="+682">🇨🇰 +682 Îles Cook</option>
+                                    <option value="+506">🇨🇷 +506 Costa Rica</option>
+                                    <option value="+385">🇭🇷 +385 Croatie</option>
+                                    <option value="+53">🇨🇺 +53 Cuba</option>
+                                    <option value="+45">🇩🇰 +45 Danemark</option>
+                                    <option value="+253">🇩🇯 +253 Djibouti</option>
+                                    <option value="+1">🇩🇲 +1 Dominique</option>
+                                    <option value="+20">🇪🇬 +20 Égypte</option>
+                                    <option value="+971">🇦🇪 +971 Émirats arabes unis</option>
+                                    <option value="+593">🇪🇨 +593 Équateur</option>
+                                    <option value="+291">🇪🇷 +291 Érythrée</option>
+                                    <option value="+34">🇪🇸 +34 Espagne</option>
+                                    <option value="+372">🇪🇪 +372 Estonie</option>
+                                    <option value="+268">🇸🇿 +268 Eswatini</option>
+                                    <option value="+1">🇺🇸 +1 États-Unis</option>
+                                    <option value="+251">🇪🇹 +251 Éthiopie</option>
+                                    <option value="+679">🇫🇯 +679 Fidji</option>
+                                    <option value="+358">🇫🇮 +358 Finlande</option>
+                                    <option value="+33">🇫🇷 +33 France</option>
+                                    <option value="+241">🇬🇦 +241 Gabon</option>
+                                    <option value="+220">🇬🇲 +220 Gambie</option>
+                                    <option value="+995">🇬🇪 +995 Géorgie</option>
+                                    <option value="+233">🇬🇭 +233 Ghana</option>
+                                    <option value="+350">🇬🇮 +350 Gibraltar</option>
+                                    <option value="+30">🇬🇷 +30 Grèce</option>
+                                    <option value="+1473">🇬🇩 +1473 Grenade</option>
+                                    <option value="+590">🇬🇵 +590 Guadeloupe</option>
+                                    <option value="+1671">🇬🇺 +1671 Guam</option>
+                                    <option value="+502">🇬🇹 +502 Guatemala</option>
+                                    <option value="+224">🇬🇳 +224 Guinée</option>
+                                    <option value="+245">🇬🇼 +245 Guinée-Bissau</option>
+                                    <option value="+240">🇬🇶 +240 Guinée équatoriale</option>
+                                    <option value="+592">🇬🇾 +592 Guyana</option>
+                                    <option value="+509">🇭🇹 +509 Haïti</option>
+                                    <option value="+504">🇭🇳 +504 Honduras</option>
+                                    <option value="+852">🇭🇰 +852 Hong Kong</option>
+                                    <option value="+36">🇭🇺 +36 Hongrie</option>
+                                    <option value="+91">🇮🇳 +91 Inde</option>
+                                    <option value="+62">🇮🇩 +62 Indonésie</option>
+                                    <option value="+964">🇮🇶 +964 Irak</option>
+                                    <option value="+98">🇮🇷 +98 Iran</option>
+                                    <option value="+353">🇮🇪 +353 Irlande</option>
+                                    <option value="+354">🇮🇸 +354 Islande</option>
+                                    <option value="+972">🇮🇱 +972 Israël</option>
+                                    <option value="+39">🇮🇹 +39 Italie</option>
+                                    <option value="+1876">🇯🇲 +1876 Jamaïque</option>
+                                    <option value="+81">🇯🇵 +81 Japon</option>
+                                    <option value="+962">🇯🇴 +962 Jordanie</option>
+                                    <option value="+7">🇰🇿 +7 Kazakhstan</option>
+                                    <option value="+254">🇰🇪 +254 Kenya</option>
+                                    <option value="+996">🇰🇬 +996 Kirghizistan</option>
+                                    <option value="+686">🇰🇮 +686 Kiribati</option>
+                                    <option value="+965">🇰🇼 +965 Koweït</option>
+                                    <option value="+856">🇱🇦 +856 Laos</option>
+                                    <option value="+371">🇱🇻 +371 Lettonie</option>
+                                    <option value="+961">🇱🇧 +961 Liban</option>
+                                    <option value="+266">🇱🇸 +266 Lesotho</option>
+                                    <option value="+231">🇱🇷 +231 Liberia</option>
+                                    <option value="+218">🇱🇾 +218 Libye</option>
+                                    <option value="+423">🇱🇮 +423 Liechtenstein</option>
+                                    <option value="+370">🇱🇹 +370 Lituanie</option>
+                                    <option value="+352">🇱🇺 +352 Luxembourg</option>
+                                    <option value="+853">🇲🇴 +853 Macao</option>
+                                    <option value="+261">🇲🇬 +261 Madagascar</option>
+                                    <option value="+265">🇲🇼 +265 Malawi</option>
+                                    <option value="+60">🇲🇾 +60 Malaisie</option>
+                                    <option value="+960">🇲🇻 +960 Maldives</option>
+                                    <option value="+223">🇲🇱 +223 Mali</option>
+                                    <option value="+356">🇲🇹 +356 Malte</option>
+                                    <option value="+212">🇲🇦 +212 Maroc</option>
+                                    <option value="+596">🇲🇶 +596 Martinique</option>
+                                    <option value="+222">🇲🇷 +222 Mauritanie</option>
+                                    <option value="+230">🇲🇺 +230 Maurice</option>
+                                    <option value="+262">🇾🇹 +262 Mayotte</option>
+                                    <option value="+52">🇲🇽 +52 Mexique</option>
+                                    <option value="+373">🇲🇩 +373 Moldavie</option>
+                                    <option value="+377">🇲🇨 +377 Monaco</option>
+                                    <option value="+976">🇲🇳 +976 Mongolie</option>
+                                    <option value="+382">🇲🇪 +382 Monténégro</option>
+                                    <option value="+258">🇲🇿 +258 Mozambique</option>
+                                    <option value="+264">🇳🇦 +264 Namibie</option>
+                                    <option value="+977">🇳🇵 +977 Népal</option>
+                                    <option value="+505">🇳🇮 +505 Nicaragua</option>
+                                    <option value="+227">🇳🇪 +227 Niger</option>
+                                    <option value="+234">🇳🇬 +234 Nigeria</option>
+                                    <option value="+47">🇳🇴 +47 Norvège</option>
+                                    <option value="+64">🇳🇿 +64 Nouvelle-Zélande</option>
+                                    <option value="+968">🇴🇲 +968 Oman</option>
+                                    <option value="+92">🇵🇰 +92 Pakistan</option>
+                                    <option value="+31">🇳🇱 +31 Pays-Bas</option>
+                                    <option value="+507">🇵🇦 +507 Panama</option>
+                                    <option value="+675">🇵🇬 +675 Papouasie-Nouvelle-Guinée</option>
+                                    <option value="+595">🇵🇾 +595 Paraguay</option>
+                                    <option value="+51">🇵🇪 +51 Pérou</option>
+                                    <option value="+63">🇵🇭 +63 Philippines</option>
+                                    <option value="+48">🇵🇱 +48 Pologne</option>
+                                    <option value="+351">🇵🇹 +351 Portugal</option>
+                                    <option value="+974">🇶🇦 +974 Qatar</option>
+                                    <option value="+40">🇷🇴 +40 Roumanie</option>
+                                    <option value="+44">🇬🇧 +44 Royaume-Uni</option>
+                                    <option value="+7">🇷🇺 +7 Russie</option>
+                                    <option value="+250">🇷🇼 +250 Rwanda</option>
+                                    <option value="+1869">🇰🇳 +1869 Saint-Christophe-et-Niévès</option>
+                                    <option value="+1758">🇱🇨 +1758 Sainte-Lucie</option>
+                                    <option value="+1784">🇻🇨 +1784 Saint-Vincent-et-les-Grenadines</option>
+                                    <option value="+685">🇼🇸 +685 Samoa</option>
+                                    <option value="+378">🇸🇲 +378 Saint-Marin</option>
+                                    <option value="+221">🇸🇳 +221 Sénégal</option>
+                                    <option value="+381">🇷🇸 +381 Serbie</option>
+                                    <option value="+248">🇸🇨 +248 Seychelles</option>
+                                    <option value="+232">🇸🇱 +232 Sierra Leone</option>
+                                    <option value="+65">🇸🇬 +65 Singapour</option>
+                                    <option value="+421">🇸🇰 +421 Slovaquie</option>
+                                    <option value="+386">🇸🇮 +386 Slovénie</option>
+                                    <option value="+252">🇸🇴 +252 Somalie</option>
+                                    <option value="+249">🇸🇩 +249 Soudan</option>
+                                    <option value="+211">🇸🇸 +211 Soudan du Sud</option>
+                                    <option value="+94">🇱🇰 +94 Sri Lanka</option>
+                                    <option value="+46">🇸🇪 +46 Suède</option>
+                                    <option value="+41">🇨🇭 +41 Suisse</option>
+                                    <option value="+597">🇸🇷 +597 Suriname</option>
+                                    <option value="+992">🇹🇯 +992 Tadjikistan</option>
+                                    <option value="+255">🇹🇿 +255 Tanzanie</option>
+                                    <option value="+235">🇹🇩 +235 Tchad</option>
+                                    <option value="+420">🇨🇿 +420 Tchéquie</option>
+                                    <option value="+66">🇹🇭 +66 Thaïlande</option>
+                                    <option value="+670">🇹🇱 +670 Timor oriental</option>
+                                    <option value="+228">🇹🇬 +228 Togo</option>
+                                    <option value="+676">🇹🇴 +676 Tonga</option>
+                                    <option value="+1868">🇹🇹 +1868 Trinité-et-Tobago</option>
+                                    <option value="+216">🇹🇳 +216 Tunisie</option>
+                                    <option value="+993">🇹🇲 +993 Turkménistan</option>
+                                    <option value="+90">🇹🇷 +90 Turquie</option>
+                                    <option value="+688">🇹🇻 +688 Tuvalu</option>
+                                    <option value="+380">🇺🇦 +380 Ukraine</option>
+                                    <option value="+256">🇺🇬 +256 Ouganda</option>
+                                    <option value="+598">🇺🇾 +598 Uruguay</option>
+                                    <option value="+998">🇺🇿 +998 Ouzbékistan</option>
+                                    <option value="+678">🇻🇺 +678 Vanuatu</option>
+                                    <option value="+379">🇻🇦 +379 Vatican</option>
+                                    <option value="+58">🇻🇪 +58 Venezuela</option>
+                                    <option value="+84">🇻🇳 +84 Vietnam</option>
+                                    <option value="+967">🇾🇪 +967 Yémen</option>
+                                    <option value="+260">🇿🇲 +260 Zambie</option>
+                                    <option value="+263">🇿🇼 +263 Zimbabwe</option>
+                                </select>
+                                <input type="tel" id="phone" name="phone" placeholder="07 00 00 00 00" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="objective">OBJECTIF PRINCIPAL</label>
+                            <select id="objective" name="objective" required>
+                                <option value="">Sélectionnez un objectif</option>
+                                <option value="data_analysis">Analyse et exploration de données</option>
+                                <option value="dashboard">Création de tableaux de bord interactifs</option>
+                                <option value="dev">Développement d'une application web</option>
+                                <option value="Shiny">Développement d'une application Shiny ou Streamlit</option>
+                                <option value="ia">Intégration de l'intelligence artificielle</option>
+                                <option value="Learning">Machine Learning et modélisation prédictive</option>
+                                <option value="Automat">Automatisation et optimisation des processus</option>
+                                <option value="Conseil">Conseil et accompagnement Data</option>
+                                <option value="strategy">Autre projet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="description">DESCRIPTION DU PROJET & IMPACT ATTENDU</label>
+                            <textarea id="description" name="description" placeholder="Expliquez brièvement comment je peux vous aider à atteindre vos objectifs..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">ENVOYER LA DEMANDE D'AUDIT</button>
+                        <p class="form-note" data-admin-field="contactNote">RÉPONSE GARANTIE SOUS 24 HEURES · DÉBUT IMMÉDIAT EN CAS D'ACCORD</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">
+                    <span class="logo-mark">HY</span>
+                    <span>Henoc Yobo</span>
+                </a>
+                <div class="footer-links">
+                    <a href="https://www.tiktok.com/@henoc__data_analyst" class="footer-link">TIKTOK</a>
+                    <a href="https://www.linkedin.com/in/henocyobo/" class="footer-link">LINKEDIN</a>
+                    <a href="https://www.youtube.com/@henocyobo1430" class="footer-link">YOUTUBE</a>
+                    <a href="https://www.instagram.com/henoc_risk_analyst?stkn=MTFqNjlrNHV0eGVtaw==" class="footer-link">INSTAGRAM</a>
+                    <a href="https://www.facebook.com/share/19W9AGX7bA/" class="footer-link">FACEBOOK</a>
+                </div>
+                <div class="footer-meta">
+                    <p class="copyright" data-admin-field="copyright"> © 2027 - TOUS DROITS RÉSERVÉS - HENOC YOBO</p>
+                    <button type="button" class="admin-link" data-admin-open> ADMIN </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Administration locale : à remplacer par un backend sécurisé en production -->
+    <div class="admin-modal" id="admin-modal" aria-hidden="true">
+        <div class="admin-backdrop" data-admin-close></div>
+        <section class="admin-dialog" role="dialog" aria-modal="true" aria-labelledby="admin-title">
+            <button class="admin-close" type="button" aria-label="Fermer l'administration" data-admin-close><i class="fas fa-xmark"></i></button>
+            <div class="admin-login" data-admin-login>
+                <span class="section-label">ESPACE ADMIN</span>
+                <h2 id="admin-title">Modifier le portfolio</h2>
+                <p>Connectez-vous pour modifier les textes enregistrés dans ce navigateur.</p>
+                <label class="admin-label" for="admin-password">MOT DE PASSE</label>
+                <input class="admin-input" id="admin-password" type="password" autocomplete="current-password">
+                <button class="btn btn-blue btn-full" type="button" data-admin-login-submit>SE CONNECTER</button>
+                <p class="admin-error" data-admin-error></p>
+            </div>
+            <div class="admin-editor" data-admin-editor hidden>
+                <span class="section-label">ESPACE ADMIN</span>
+                <h2>Modifier les contenus</h2>
+                <label class="admin-label" for="admin-copyright">COPYRIGHT</label>
+                <input class="admin-input" id="admin-copyright" data-admin-input="copyright" type="text">
+                <label class="admin-label" for="admin-contact-note">MESSAGE DU FORMULAIRE</label>
+                <input class="admin-input" id="admin-contact-note" data-admin-input="contactNote" type="text">
+                <label class="admin-label" for="admin-hero-subtitle">SOUS-TITRE D'ACCUEIL</label>
+                <textarea class="admin-input" id="admin-hero-subtitle" data-admin-input="heroSubtitle" rows="3"></textarea>
+                <label class="admin-label" for="admin-contact-text">TEXTE CONTACT</label>
+                <textarea class="admin-input" id="admin-contact-text" data-admin-input="contactText" rows="3"></textarea>
+                <div class="admin-actions">
+                    <button class="btn btn-blue" type="button" data-admin-save>ENREGISTRER</button>
+                    <button class="btn btn-yellow" type="button" data-admin-edit>ACTIVER LE MODE ÉDITION</button>
+                    <button class="btn btn-secondary" type="button" data-admin-logout>SE DÉCONNECTER</button>
+                </div>
+                <p class="admin-status" data-admin-status>Le mode édition permet de modifier directement les textes du site.</p>
+                <div class="admin-project-manager" data-project-manager hidden>
+                    <div class="admin-project-heading">
+                        <h3>Gérer les projets</h3>
+                        <button class="btn btn-yellow" type="button" data-project-add>AJOUTER UN PROJET</button>
+                    </div>
+                    <div class="admin-project-list" data-project-list></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Bouton WhatsApp flottant -->
+    <a href="https://wa.me/2250769930299" target="_blank" rel="noopener" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
